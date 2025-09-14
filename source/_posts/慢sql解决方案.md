@@ -5,7 +5,10 @@ description: ''
 permalink: ''
 title: 慢sql解决方案
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 20:03:00'
+cover: 'https://www.notion.so/images/page-cover/webb2.jpg'
+updated: '2025-09-14 20:22:00'
+index_img: /images/b8f2b57ee8b53b0920e27dc77dda26c8.jpg
+banner_img: /images/b8f2b57ee8b53b0920e27dc77dda26c8.jpg
 ---
 
 # sql-analysis

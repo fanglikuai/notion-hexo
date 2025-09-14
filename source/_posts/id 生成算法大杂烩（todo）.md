@@ -3,14 +3,14 @@ categories: 整理输出
 tags:
   - 算法
   - id
-description: ''
+description: 常见的id生成算法
 permalink: ''
 title: id 生成算法大杂烩（todo）
 date: '2025-09-14 16:24:00'
-cover: 'https://www.notion.so/images/page-cover/nasa_bruce_mccandless_spacewalk.jpg'
-updated: '2025-09-14 20:03:00'
-index_img: /images/24c3bef21dbe219801f421672961ae73.jpg
-banner_img: /images/24c3bef21dbe219801f421672961ae73.jpg
+cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/143cad91-961b-48b0-82dc-78fbb6eb5abe/66bdab08-2c95-4215-a279-9a664fd9f37b/wallhaven-85lly2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SRQAACLK%2F20250914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250914T122452Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDQ%2BFOLYs0aPlOPi8ecRMaDgPQkCrQTjYzCbq%2BurhL3zgIgaYd3cipiNZ94Oz9gKHUbQyiCoBTXSFkWzQoAsVkOcioq%2FwMIWBAAGgw2Mzc0MjMxODM4MDUiDH1bODz7vKLoXslXZCrcA%2FjImH1uaVOjP0AR16avnPDMw1JcfaEFbMHgZlKSnyyI9r6ZZ89qOi4fVhm9DC5arodLzMMOGTuFU1MuBX0SM87y0GYN5jtvJUctpG%2BQMZksRFR9wBZExkHl5jio66giBmWgrPlQvTIc1CzOa6GDt%2BReBt51qs3Y5ZgTsCDWpkYsYODfY397jvGsZwA0NfMAvQROhViO9psTazse5vdsWbS%2FQIbMMb2m0A9NKEDDfCNGXYY%2FO3CCJa%2FPEbsCDN%2FPBzYC059Ops%2FDMm5i6gOhMWUM4dcoOnCPowGPEaPEim4W2r3CKJJ4zBzHlQ%2Bsh%2Fhx2GyAOXMrG07AqqO1qDIvdWHASDWoqnsiaVET997xEngXVyceE%2FgPFoOd8SD3inE%2F4T0ulqUep1AIrN3zTHaM27Ar8ny7GByIdaqmFlH5xeFFnonBB%2FGa4N8JOS0EOfJoEnFpTyR8Pr1BnwJ8UK5cI1%2BOU%2Ftbs6IG8f4PuSfIZERz4FK1fGOKse6cSZfpMd5sLFA%2FAlfDoO27xdJG9RB6QvNu2ZgX1%2BoTxJd99H3vRI2CUCEFpwj3rzKLqwimHV9fAZlFqM%2FwcjxrR4xHxcAOpkZVIIT%2Bv9E3rwf8X1gm6bY9yMmNKb3qcueyDjjOMOPPmcYGOqUBblc0zawETW83YxvJYlBS270j6p%2F8ZjSrN486qIFJAyoJ%2FLx8%2BXpCBLAKogCDaKmgWnXSi1r9aBC6A6%2F3267kmUPyx2b4KX6wdTey9ASNdsJbWCctEkLZi28LWwWYE29lDG2m3g4KgAvfKdv%2BbWJYezcWeYdiW%2FBgvX%2FT5t%2FlszCPVRDiOfdz0mloL6BO0E%2FchfB%2Bo%2FZaMesf2OHUpQ5cHYmZTiJq&X-Amz-Signature=c11107deb0bb993c3059c725d02cee0cf1dc2ac54dd382f256a63e3966b05405&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject'
+updated: '2025-09-14 20:20:00'
+index_img: /images/652dbf567bc4f106d704263e430a2fc1.jpg
+banner_img: /images/652dbf567bc4f106d704263e430a2fc1.jpg
 ---
 
 分布式情况下，id 一般就不是自增了

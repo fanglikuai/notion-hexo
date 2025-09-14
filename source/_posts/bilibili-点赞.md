@@ -8,10 +8,10 @@ description: ''
 permalink: ''
 title: bilibili-点赞
 date: '2025-09-14 16:13:00'
-cover: 'https://www.notion.so/images/page-cover/webb1.jpg'
-updated: '2025-09-14 20:03:00'
-index_img: /images/ddd64e35f160b0eaa92db513eda8af3e.jpg
-banner_img: /images/ddd64e35f160b0eaa92db513eda8af3e.jpg
+cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/143cad91-961b-48b0-82dc-78fbb6eb5abe/ec123cdf-ca8b-4dc6-984d-4a52f31eb3f4/wallhaven-jx62x5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SRQAACLK%2F20250914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250914T122452Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDQ%2BFOLYs0aPlOPi8ecRMaDgPQkCrQTjYzCbq%2BurhL3zgIgaYd3cipiNZ94Oz9gKHUbQyiCoBTXSFkWzQoAsVkOcioq%2FwMIWBAAGgw2Mzc0MjMxODM4MDUiDH1bODz7vKLoXslXZCrcA%2FjImH1uaVOjP0AR16avnPDMw1JcfaEFbMHgZlKSnyyI9r6ZZ89qOi4fVhm9DC5arodLzMMOGTuFU1MuBX0SM87y0GYN5jtvJUctpG%2BQMZksRFR9wBZExkHl5jio66giBmWgrPlQvTIc1CzOa6GDt%2BReBt51qs3Y5ZgTsCDWpkYsYODfY397jvGsZwA0NfMAvQROhViO9psTazse5vdsWbS%2FQIbMMb2m0A9NKEDDfCNGXYY%2FO3CCJa%2FPEbsCDN%2FPBzYC059Ops%2FDMm5i6gOhMWUM4dcoOnCPowGPEaPEim4W2r3CKJJ4zBzHlQ%2Bsh%2Fhx2GyAOXMrG07AqqO1qDIvdWHASDWoqnsiaVET997xEngXVyceE%2FgPFoOd8SD3inE%2F4T0ulqUep1AIrN3zTHaM27Ar8ny7GByIdaqmFlH5xeFFnonBB%2FGa4N8JOS0EOfJoEnFpTyR8Pr1BnwJ8UK5cI1%2BOU%2Ftbs6IG8f4PuSfIZERz4FK1fGOKse6cSZfpMd5sLFA%2FAlfDoO27xdJG9RB6QvNu2ZgX1%2BoTxJd99H3vRI2CUCEFpwj3rzKLqwimHV9fAZlFqM%2FwcjxrR4xHxcAOpkZVIIT%2Bv9E3rwf8X1gm6bY9yMmNKb3qcueyDjjOMOPPmcYGOqUBblc0zawETW83YxvJYlBS270j6p%2F8ZjSrN486qIFJAyoJ%2FLx8%2BXpCBLAKogCDaKmgWnXSi1r9aBC6A6%2F3267kmUPyx2b4KX6wdTey9ASNdsJbWCctEkLZi28LWwWYE29lDG2m3g4KgAvfKdv%2BbWJYezcWeYdiW%2FBgvX%2FT5t%2FlszCPVRDiOfdz0mloL6BO0E%2FchfB%2Bo%2FZaMesf2OHUpQ5cHYmZTiJq&X-Amz-Signature=4ba0a0ff1898b8577dc90b8aeaf080e0e4a0fb60a3f58cecc2b31df32b0b6812&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject'
+updated: '2025-09-14 20:21:00'
+index_img: /images/2e052ae27876da4b1d1dffcec9e3d1f2.png
+banner_img: /images/2e052ae27876da4b1d1dffcec9e3d1f2.png
 ---
 > 原文：【点个赞吧】 - B站千亿级点赞系统服务架构设计 - 哔哩哔哩 (bilibili.com)
 
