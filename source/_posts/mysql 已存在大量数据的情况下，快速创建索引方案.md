@@ -1,6 +1,7 @@
 ---
 categories: 业务开发
 tags: []
+sticky: ''
 description: ''
 permalink: ''
 title: mysql 已存在大量数据的情况下，快速创建索引方案

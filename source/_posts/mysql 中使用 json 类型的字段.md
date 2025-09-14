@@ -1,6 +1,7 @@
 ---
 categories: 业务开发
 tags: []
+sticky: ''
 description: ''
 permalink: ''
 title: mysql 中使用 json 类型的字段
