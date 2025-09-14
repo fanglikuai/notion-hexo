@@ -2,10 +2,10 @@
 categories: 博客阅读
 tags: []
 description: ''
-permalink: dynamic-thread-pool-dynamictp-source-analysis
+permalink: ''
 title: 动态线程池-DynamicTp源码解析
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 18:48:00'
+updated: '2025-09-14 20:03:00'
 ---
 
 # 技术架构

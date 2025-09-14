@@ -2,10 +2,10 @@
 categories: 整理输出
 tags: []
 description: ''
-permalink: java-interview-scenario-questions
+permalink: ''
 title: java面试之场景题
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 18:44:00'
+updated: '2025-09-14 20:03:00'
 ---
 
 # CompletableFuture之控制时间

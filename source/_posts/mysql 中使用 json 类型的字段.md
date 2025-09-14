@@ -2,10 +2,10 @@
 categories: 业务开发
 tags: []
 description: ''
-permalink: mysql-json-type-fields
+permalink: ''
 title: mysql 中使用 json 类型的字段
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 18:47:00'
+updated: '2025-09-14 20:03:00'
 ---
 
 5.7 之后支持了 json 格式

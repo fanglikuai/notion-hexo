@@ -2,10 +2,10 @@
 categories: 整理输出
 tags: []
 description: ''
-permalink: nginx-openresty
+permalink: ''
 title: Nginx & OpenRestry
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 18:47:00'
+updated: '2025-09-14 20:03:00'
 ---
 
 # 基本概念

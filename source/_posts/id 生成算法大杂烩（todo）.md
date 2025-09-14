@@ -4,12 +4,13 @@ tags:
   - 算法
   - id
 description: ''
-permalink: id-generation-algorithm-soup-todo
+permalink: ''
 title: id 生成算法大杂烩（todo）
 date: '2025-09-14 16:24:00'
 cover: 'https://www.notion.so/images/page-cover/nasa_bruce_mccandless_spacewalk.jpg'
-updated: '2025-09-14 17:47:00'
+updated: '2025-09-14 20:03:00'
 index_img: /images/24c3bef21dbe219801f421672961ae73.jpg
+banner_img: /images/24c3bef21dbe219801f421672961ae73.jpg
 ---
 
 分布式情况下，id 一般就不是自增了

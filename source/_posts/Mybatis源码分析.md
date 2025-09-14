@@ -2,10 +2,10 @@
 categories: 源码阅读
 tags: []
 description: ''
-permalink: mybatis-source-code-analysis
+permalink: ''
 title: Mybatis源码分析
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 18:47:00'
+updated: '2025-09-14 20:03:00'
 ---
 
 # 实例

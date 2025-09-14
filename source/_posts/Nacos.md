@@ -2,10 +2,10 @@
 categories: 源码阅读
 tags: []
 description: ''
-permalink: nacos
+permalink: ''
 title: Nacos
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 18:47:00'
+updated: '2025-09-14 20:03:00'
 ---
 
 架构图

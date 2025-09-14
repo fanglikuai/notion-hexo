@@ -5,12 +5,13 @@ tags:
   - bilibili
   - 点赞
 description: ''
-permalink: bilibili-dianzan
+permalink: ''
 title: bilibili-点赞
 date: '2025-09-14 16:13:00'
 cover: 'https://www.notion.so/images/page-cover/webb1.jpg'
-updated: '2025-09-14 17:47:00'
+updated: '2025-09-14 20:03:00'
 index_img: /images/ddd64e35f160b0eaa92db513eda8af3e.jpg
+banner_img: /images/ddd64e35f160b0eaa92db513eda8af3e.jpg
 ---
 > 原文：【点个赞吧】 - B站千亿级点赞系统服务架构设计 - 哔哩哔哩 (bilibili.com)
 
