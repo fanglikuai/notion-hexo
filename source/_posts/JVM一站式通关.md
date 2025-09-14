@@ -1,11 +1,11 @@
 ---
-categories: ''
+categories: 整理输出
 tags: []
 description: ''
-permalink: ''
+permalink: jvm-one-stop-clearance
 title: JVM一站式通关
-date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+date: '2025-09-03 08:00:00'
+updated: '2025-09-14 18:47:00'
 ---
 
 # 垃圾收集器

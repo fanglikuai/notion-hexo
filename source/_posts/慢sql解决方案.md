@@ -1,11 +1,11 @@
 ---
-categories: ''
+categories: 数据库
 tags: []
 description: ''
-permalink: ''
+permalink: slow-sql-solution
 title: 慢sql解决方案
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+updated: '2025-09-14 18:46:00'
 ---
 
 # sql-analysis

@@ -1,11 +1,15 @@
 ---
-categories: ''
-tags: []
+categories: 整理输出
+tags:
+  - 算法
+  - id
 description: ''
-permalink: ''
+permalink: id-generation-algorithm-soup-todo
 title: id 生成算法大杂烩（todo）
-date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+date: '2025-09-14 16:24:00'
+cover: 'https://www.notion.so/images/page-cover/nasa_bruce_mccandless_spacewalk.jpg'
+updated: '2025-09-14 17:47:00'
+index_img: /images/24c3bef21dbe219801f421672961ae73.jpg
 ---
 
 分布式情况下，id 一般就不是自增了
@@ -74,7 +78,7 @@ id code
 - **子码管理**：每个号段维护1000个可用子码（子码值：0-999）
 - **生成规则**：幸运码=随机号段_1000+随机子码（示例：129358=129_1000+358）
 
-![images3e79ee85f517a24b6dd17c49517d6021.webp](/images/363c915c9a97821934e06a32f7696fd5.webp)
+![images3e79ee85f517a24b6dd17c49517d6021.webp](/images/00898df9e2516fa4f0f181649bb7126d.webp)
 
 
 ### 具体设计
@@ -120,11 +124,8 @@ Redis存储可用号段集合，若号段的子码使用完，该号段会从Red
 4. 若号段的分布式锁抢占成功，则随机获取号段中可用的子码，再根据号段和子码生成幸运码
 5. 若号段的分布式锁抢占失败，则遍历下一个号段，并重复上述步骤
 
-![images720d9b6c86c6855290bc2b55f0507d68.png](/images/9621483aef8b9739eef00af0c01611ed.png)
+![image.png](/images/035399511e7a9d2be97ad9c7b0b1c6d7.png)
 
 
-![imagesafe42368e5728722d3ac374dc196c271.webp](/images/428640e27a309b7ecd3ab946e5f69218.webp)
-
-
-## 
+![image.png](/images/26032740c6d1a88a70a626c31b95f6fc.png)
 

@@ -1,11 +1,11 @@
 ---
-categories: ''
+categories: 业务开发
 tags: []
 description: ''
-permalink: ''
+permalink: mysql-quickly-create-index-scheme-with-existing-large-data
 title: mysql 已存在大量数据的情况下，快速创建索引方案
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+updated: '2025-09-14 18:47:00'
 ---
 
 # 原因

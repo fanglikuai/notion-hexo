@@ -1,11 +1,14 @@
 ---
-categories: ''
-tags: []
+categories: 整理输出
+tags:
+  - https
 description: ''
-permalink: ''
+permalink: https-full-process-analysis
 title: HTTPS全流程解析
-date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+date: '2025-09-14 16:21:00'
+cover: 'https://www.notion.so/images/page-cover/webb4.jpg'
+updated: '2025-09-14 17:47:00'
+index_img: /images/dfd92b3f8b2ceee7683f60579ba67e16.jpg
 ---
 
 # 加密算法
@@ -43,13 +46,13 @@ HTTPS解决数据传输安全的方案就是使用加密算法，具体来说就
 官方图片：
 
 
-![imagesd44b6927dda25ed87175d2417755aa00.png](/images/7c8846983222c55b3f4d60efdf7a8af9.png)
+![imagesd44b6927dda25ed87175d2417755aa00.png](/images/3dc3885631aadf23c5728c49bb5df3c4.png)
 
 
 我的图片
 
 
-![67d23ac21e733.png](https://img.picui.cn/free/2025/03/13/67d23ac21e733.png)
+![image.png](/images/7dac926f4b3925358a887a46c786b703.png)
 
 
 采用 HTTPS 协议的服务器必须要有一套数字 CA (Certification Authority)证书，证书是需要申请的，并由专门的数字证书认证机构(CA)通过非常严格的审核之后颁发的电子证书 (当然了是要钱的，安全级别越高价格越贵)。颁发证书的同时会产生一个私钥和公钥。私钥由服务端自己保存，不可泄漏。公钥则是附带在证书的信息中，可以公开的。证书本身也附带一个证书电子签名，这个签名用来验证证书的完整性和真实性，可以防止证书被篡改。

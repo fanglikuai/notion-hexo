@@ -1,11 +1,11 @@
 ---
-categories: ''
+categories: 业务开发
 tags: []
 description: ''
-permalink: ''
+permalink: full-log-link-mdc
 title: 全日志链路-MDC
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+updated: '2025-09-14 18:48:00'
 ---
 
 # 基本配置

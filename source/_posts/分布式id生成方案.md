@@ -1,11 +1,11 @@
 ---
-categories: ''
+categories: 整理输出
 tags: []
 description: ''
-permalink: ''
+permalink: distributed-id-generation-scheme
 title: 分布式id生成方案
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+updated: '2025-09-14 18:46:00'
 ---
 
 要求：

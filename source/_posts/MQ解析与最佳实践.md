@@ -1,11 +1,11 @@
 ---
-categories: ''
+categories: 整理输出
 tags: []
 description: ''
-permalink: ''
+permalink: mq-analysis-and-best-practices
 title: MQ解析与最佳实践
-date: '2025-09-14 17:39:00'
-updated: '2025-09-14 17:45:00'
+date: '2025-09-04 08:00:00'
+updated: '2025-09-14 18:47:00'
 ---
 
 # 丢失消息
