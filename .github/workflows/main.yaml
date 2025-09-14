@@ -45,6 +45,7 @@ jobs:
           COS_IMAGE_REGION: ${{ secrets.COS_IMAGE_REGION }}
         run: |
           # 对应package.json中的script.sync
+          npx @elog/cli clean
           npm run sync
 
       - name: 配置Git用户名邮箱
