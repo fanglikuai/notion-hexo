@@ -1,12 +1,13 @@
 ---
 categories: 整理输出
-tags: []
+tags:
+  - nginx
 sticky: ''
 description: ''
 permalink: ''
 title: Nginx & OpenRestry
 date: '2025-09-14 17:39:00'
-updated: '2025-09-14 20:03:00'
+updated: '2025-09-14 20:45:00'
 ---
 
 # 基本概念
@@ -75,13 +76,7 @@ server {
 
 ## 跨域问题
 
-1. 在 Nginx 的 `<font style="color:rgb(97, 92, 237);background-color:rgb(239, 238, 255);">server</font><font style="color:rgb(97, 92, 237);background-color:rgb(239, 238, 255);">location</font>`
-
-    或
-
-
-    块中添加以下头部：
-
+1. 在 Nginx 的`server` 或`location`块中添加以下头部：
 
 ```plain text
 location / {

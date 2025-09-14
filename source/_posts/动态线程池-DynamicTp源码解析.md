@@ -6,8 +6,8 @@ description: ''
 permalink: ''
 title: 动态线程池-DynamicTp源码解析
 date: '2025-09-14 17:39:00'
-cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/143cad91-961b-48b0-82dc-78fbb6eb5abe/9a3ef0c8-407d-48e8-b7d3-aa3aa449d65a/d3718618ff27a186a0ba957f96444b77965148a9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SWRIDJKV%2F20250914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250914T124211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCjBby%2FuaH6NDyoJgfQ5ddtKdyt3Hpr5xbqDGdc7ITFJQIhANQEF299BXk%2Ft73%2FlqcVMklsC2opt7tDI7JnUAKCsFZGKv8DCFgQABoMNjM3NDIzMTgzODA1IgzzcHCAK3d3ivRCHKsq3AMLDWWd7bdBMrY6iTLAU0WKqgVAOSW43jF3Vvuu8T0SIsRd6FfEoNgdWsOKZ5hqMAIJvUEzQyur01MLTFgNsvbK3gDGOl3SjBQc2lwxa5zeqUKAmbJzJP0p0S0FIKJH57L9Zu3GAEQvBo%2BRXnWNMCy9YUlDNj5sHseSZI6bsCCyzrNyVv5Nc4Yep6rEBfJyg71NzZQysBgK4GQyoxgNujhahrSYh96PwvJDmaXeala0uL1kDTU3ZKcwza41P0OLPGdKMamcwYOiqxi76tXJWSBS98cmvR80yGm8DsPylUtdcV4P9PSherRLjonHpc0S65V8HsnzyBBSjaHw2UaoSrVN7lEe2V4BDZWD%2BARuyb7SPmLaIE4RK2sOOr5UWS%2FKg%2BtT%2FNAXvSyJcQrBOgQ%2Fl2fnFqBkwlQuoFcWmjAgeyra6TuMAiYmLkmEWcv%2B7OBF3KSCRvkYnIx7jVyIWwOglzDU0cdz%2F%2Fv%2F6c1cnwu9XoEUNrceyXKzRXw4YK3hbMdZ7OPIliXDCdf68PU7NCPD5ht4q847dmSje334RBSLjXZ5wR7Gk23%2FGibCF%2BmVy9BhQ0%2FjrOYb7cRNBQeQEBe3lf9rFVqD%2Bb1TbKh5yr8fLnjwywzZUOqgVrFCzMtPMzCdz5nGBjqkAS2EM42ISP65t%2BKhEHNfxau3Oom%2BZQFBvaeeqEyydehJ4d5QV8kVPhPCqX5hz9oqwFw7JqaGZqKl%2Fwsa1dHe7zHmCV58mwwXnnPOkJaRhTIjoquEMuhKZ%2FZiFNYj3h998RcjHo7MbopxW7MH%2BtIqz%2FWa8CHBAR9hwQ%2FIduL5XXPCKOJjcqWfL01WCXACHh546iOUMurYWM4PLMzg5gFPRVgsa5lt&X-Amz-Signature=a26d83d11f1dc552ce44a7a4c4ed3edfbbe66c2408f8a45107526cb64a171e35&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject'
-updated: '2025-09-14 20:23:00'
+cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/143cad91-961b-48b0-82dc-78fbb6eb5abe/9a3ef0c8-407d-48e8-b7d3-aa3aa449d65a/d3718618ff27a186a0ba957f96444b77965148a9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664ZCCA3ZA%2F20250914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250914T125005Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBjYPByxsu0edPVV5556dqW6S2dI101rstjQPetGfiQ1AiEAnunqZvN10OiWI64tHl%2FxeDurWlZFGBVOusQIDkzYrf0q%2FwMIWBAAGgw2Mzc0MjMxODM4MDUiDPXZmmC2dYLIpIjjbyrcA3jqw7epkyLYE8AT%2B25YkeAEfY5Qp2mWPQVRJg%2FfFs%2BDlHy2mKG%2BjUauPHgH8SpAEoVr4S3NUHSxYlrvQfbBMQ4VxF7PdZcQDAuvbUlgJ9yXlX16%2Bcc%2FQ77AcsTHjlOIXzYqTAApk8WOO8jo1SYWf68%2F7uQnXFFFfYJZiIXhFEmCht9cmTZ145Nh%2F1S0nwkPfZtNHt7Ob85jYl4twf41UHsDcSPZKdYPfmoDNLeNyyfHW5M8nK2gS4td1iedeeJ3qBOwttJkEBBp0L97SsQbd3z7e2Q9yvRaIVHixoJZbSj8s3HKHwmJ2X6Ko5PC%2F7eteJ2cstmynrp1%2FUiJjoLlTOWOUrFJGxhrh4R7%2B%2FYGRbmkGrJ9M7WIUu6x5fB7G487hIBjUuFkcOlJxfG4HXBUmprfbPPSNGOu%2BSexwWmHzu6DEY%2FCFFcus%2BJ3VhuH1xl8aOWUxyg%2FVg5Bx4gU6VvXYk4mxVWqEoIuVt18pMelUqRhlNmfVA1J%2BEuVaRVlMXhy8m3BASgQrM%2FuXangLJNbadg9BJt9k34rwi9HSiJNiTBQhYyFq46Tqj1ET7fd2bdGNvfUXO1UiXpomza4ZW2Coue22a0HU%2FpBMTijYAJ%2Bf9apW8P6XwpA1clbYb5pMJXQmcYGOqUBqdVfALQD51Ur5SQMOnHFmYk5DmFQA6CNjxH%2BQFzsE%2FXl31S4MIpWpvOiP7YzmrK5dc6LotChteTqQ5ReAy%2FTb7fUyLZa7i0x%2BWIkvpyUN7SeBBJ7MBgSiThp2eExKzxynGTlelZn91s4gc7Z6yzwHoOLePaehQSeC1jd3%2F0kavV6xKScAW7uKaGOldTXizTbtMf%2F8zQsWs8l%2FAXrTaOQ5E4uiszj&X-Amz-Signature=47007fdb2e6074a5f64b2a23501a6e232958a1ba9dcf048859d26f28042bab77&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject'
+updated: '2025-09-14 20:49:00'
 index_img: /images/85d0f81b2436ec7e37ce37d1acc51a2b.jpg
 banner_img: /images/85d0f81b2436ec7e37ce37d1acc51a2b.jpg
 ---
@@ -117,7 +117,9 @@ DtpProperties是配置类
 
 
 ```java
-private static class Holder {        private static final DtpProperties INSTANCE = new DtpProperties();    }
+private static class Holder {
+    private static final DtpProperties INSTANCE = new DtpProperties();
+}
 ```
 
 > 这里后面为了解耦spring，使用单例模式，创建出来后在spring的后置处理器中对配置文件进行了解析注入
@@ -126,7 +128,26 @@ private static class Holder {        private static final DtpProperties INSTANCE
 
 
 ```java
-@Override    public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {        DtpProperties dtpProperties = DtpProperties.getInstance();        BinderHelper.bindDtpProperties(environment, dtpProperties);        val executors = dtpProperties.getExecutors();        if (CollectionUtils.isEmpty(executors)) {            log.info("DynamicTp registrar, no executors are configured.");            return;        }// 将每个线程池的配置都放进spring注册中心        executors.forEach(e -> {            if (!e.isAutoCreate()) {                return;            }            Class<?> executorTypeClass = ExecutorType.getClass(e.getExecutorType());            Map<String, Object> propertyValues = buildPropertyValues(e);            Object[] args = buildConstructorArgs(executorTypeClass, e);            BeanRegistrationUtil.register(registry, e.getThreadPoolName(), executorTypeClass, propertyValues, args);        });    }
+@Override
+    public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
+        DtpProperties dtpProperties = DtpProperties.getInstance();
+        BinderHelper.bindDtpProperties(environment, dtpProperties);
+        val executors = dtpProperties.getExecutors();
+        if (CollectionUtils.isEmpty(executors)) {
+            log.info("DynamicTp registrar, no executors are configured.");
+            return;
+        }
+// 将每个线程池的配置都放进spring注册中心
+        executors.forEach(e -> {
+            if (!e.isAutoCreate()) {
+                return;
+            }
+            Class<?> executorTypeClass = ExecutorType.getClass(e.getExecutorType());
+            Map<String, Object> propertyValues = buildPropertyValues(e);
+            Object[] args = buildConstructorArgs(executorTypeClass, e);
+            BeanRegistrationUtil.register(registry, e.getThreadPoolName(), executorTypeClass, propertyValues, args);
+        });
+    }
 ```
 
 
@@ -146,7 +167,19 @@ private static class Holder {        private static final DtpProperties INSTANCE
 
 
 ```java
-//    后置处理，获取到bean后，对bean进行增强，并注册到DtpRegistry中    @Override    public Object postProcessAfterInitialization(@NonNull Object bean, @NonNull String beanName) throws BeansException {//      对是 ThreadPoolExecutor或者 ThreadPoolTaskExecutor类型的bean进行处理，如果不是直接退出        if (!(bean instanceof ThreadPoolExecutor) && !(bean instanceof ThreadPoolTaskExecutor)) {            return bean;        }        if (bean instanceof DtpExecutor) {            return registerAndReturnDtp(bean);        }        // register juc ThreadPoolExecutor or ThreadPoolTaskExecutor        return registerAndReturnCommon(bean, beanName);    }
+//    后置处理，获取到bean后，对bean进行增强，并注册到DtpRegistry中
+    @Override
+    public Object postProcessAfterInitialization(@NonNull Object bean, @NonNull String beanName) throws BeansException {
+//      对是 ThreadPoolExecutor或者 ThreadPoolTaskExecutor类型的bean进行处理，如果不是直接退出
+        if (!(bean instanceof ThreadPoolExecutor) && !(bean instanceof ThreadPoolTaskExecutor)) {
+            return bean;
+        }
+        if (bean instanceof DtpExecutor) {
+            return registerAndReturnDtp(bean);
+        }
+        // register juc ThreadPoolExecutor or ThreadPoolTaskExecutor
+        return registerAndReturnCommon(bean, beanName);
+    }
 ```
 
 
@@ -208,7 +241,26 @@ nacos会自己发布刷新事件，所以直接注册进spring就可以了
 
 
 ```java
-@Override    public boolean offer(@NonNull Runnable runnable) {        if (executor == null) {            throw new RejectedExecutionException("The task queue does not have executor.");        }        if (executor.getPoolSize() == executor.getMaximumPoolSize()) {            return super.offer(runnable);        }        // have free worker. put task into queue to let the worker deal with task.        if (executor.getSubmittedTaskCount() <= executor.getPoolSize()) {            return super.offer(runnable);        }        // return false to let executor create new worker.        //   还没到最大的线程,返回false让父创建线程        if (executor.getPoolSize() < executor.getMaximumPoolSize()) {            return false;        }        // currentPoolThreadSize >= max        return super.offer(runnable);    }
+@Override
+    public boolean offer(@NonNull Runnable runnable) {
+        if (executor == null) {
+            throw new RejectedExecutionException("The task queue does not have executor.");
+        }
+        if (executor.getPoolSize() == executor.getMaximumPoolSize()) {
+            return super.offer(runnable);
+        }
+        // have free worker. put task into queue to let the worker deal with task.
+        if (executor.getSubmittedTaskCount() <= executor.getPoolSize()) {
+            return super.offer(runnable);
+        }
+        // return false to let executor create new worker.
+        //   还没到最大的线程,返回false让父创建线程
+        if (executor.getPoolSize() < executor.getMaximumPoolSize()) {
+            return false;
+        }
+        // currentPoolThreadSize >= max
+        return super.offer(runnable);
+    }
 ```
 
 
@@ -220,7 +272,22 @@ nacos会自己发布刷新事件，所以直接注册进spring就可以了
 > 工厂模式-枚举
 
 ```java
-private static final ExecutorService ALARM_EXECUTOR = ThreadPoolBuilder.newBuilder()            .threadFactory("dtp-alarm")            .corePoolSize(1)            .maximumPoolSize(1)            .workQueue(LINKED_BLOCKING_QUEUE.getName(), 2000)            .rejectedExecutionHandler(RejectedTypeEnum.DISCARD_OLDEST_POLICY.getName())            .rejectEnhanced(false)            .taskWrappers(TaskWrappers.getInstance().getByNames(Sets.newHashSet("mdc")))            .buildDynamic();    private static final InvokerChain<BaseNotifyCtx> ALARM_INVOKER_CHAIN;    static {//        构建责任链        ALARM_INVOKER_CHAIN = NotifyFilterBuilder.getAlarmInvokerChain();    }
+private static final ExecutorService ALARM_EXECUTOR = ThreadPoolBuilder.newBuilder()
+            .threadFactory("dtp-alarm")
+            .corePoolSize(1)
+            .maximumPoolSize(1)
+            .workQueue(LINKED_BLOCKING_QUEUE.getName(), 2000)
+            .rejectedExecutionHandler(RejectedTypeEnum.DISCARD_OLDEST_POLICY.getName())
+            .rejectEnhanced(false)
+            .taskWrappers(TaskWrappers.getInstance().getByNames(Sets.newHashSet("mdc")))
+            .buildDynamic();
+
+    private static final InvokerChain<BaseNotifyCtx> ALARM_INVOKER_CHAIN;
+
+    static {
+//        构建责任链
+        ALARM_INVOKER_CHAIN = NotifyFilterBuilder.getAlarmInvokerChain();
+    }
 ```
 
 
@@ -228,7 +295,19 @@ private static final ExecutorService ALARM_EXECUTOR = ThreadPoolBuilder.newBuild
 
 
 ```java
-//    构造？    public static InvokerChain<BaseNotifyCtx> getAlarmInvokerChain() {//        spi机制加载的spring容器（解耦了）        val filters = ContextManagerHelper.getBeansOfType(NotifyFilter.class);        Collection<NotifyFilter> alarmFilters = Lists.newArrayList(filters.values());//        责任链？        alarmFilters.add(new AlarmBaseFilter());        alarmFilters = alarmFilters.stream()                .filter(x -> x.supports(NotifyTypeEnum.ALARM))                .sorted(Comparator.comparing(Filter::getOrder))                .collect(Collectors.toList());        return InvokerChainFactory.buildInvokerChain(new AlarmInvoker(), alarmFilters.toArray(new NotifyFilter[0]));    }
+//    构造？
+    public static InvokerChain<BaseNotifyCtx> getAlarmInvokerChain() {
+//        spi机制加载的spring容器（解耦了）
+        val filters = ContextManagerHelper.getBeansOfType(NotifyFilter.class);
+        Collection<NotifyFilter> alarmFilters = Lists.newArrayList(filters.values());
+//        责任链？
+        alarmFilters.add(new AlarmBaseFilter());
+        alarmFilters = alarmFilters.stream()
+                .filter(x -> x.supports(NotifyTypeEnum.ALARM))
+                .sorted(Comparator.comparing(Filter::getOrder))
+                .collect(Collectors.toList());
+        return InvokerChainFactory.buildInvokerChain(new AlarmInvoker(), alarmFilters.toArray(new NotifyFilter[0]));
+    }
 ```
 
 
@@ -251,7 +330,18 @@ InvokerChain是核心，然后`proceed`方法调用Invoker
 
 
 ```java
-//    核心方法    private void run() {        Set<String> executorNames = DtpRegistry.getAllExecutorNames();        try {//            通知？            checkAlarm(executorNames);//            核心方法            collectMetrics(executorNames);        } catch (Exception e) {            log.error("DynamicTp monitor, run error", e);        }    }
+//    核心方法
+    private void run() {
+        Set<String> executorNames = DtpRegistry.getAllExecutorNames();
+        try {
+//            通知？
+            checkAlarm(executorNames);
+//            核心方法
+            collectMetrics(executorNames);
+        } catch (Exception e) {
+            log.error("DynamicTp monitor, run error", e);
+        }
+    }
 ```
 
 
@@ -259,7 +349,24 @@ InvokerChain是核心，然后`proceed`方法调用Invoker
 
 
 ```java
-@Slf4jpublic class LogCollector extends AbstractCollector {    @Override    public void collect(ThreadPoolStats threadPoolStats) {        String metrics = JsonUtil.toJson(threadPoolStats);        if (LogHelper.getMonitorLogger() == null) {            log.error("Cannot find monitor logger...");            return;        }        LogHelper.getMonitorLogger().info("{}", metrics);    }    @Override    public String type() {        return CollectorTypeEnum.LOGGING.name().toLowerCase();    }}
+@Slf4j
+public class LogCollector extends AbstractCollector {
+
+    @Override
+    public void collect(ThreadPoolStats threadPoolStats) {
+        String metrics = JsonUtil.toJson(threadPoolStats);
+        if (LogHelper.getMonitorLogger() == null) {
+            log.error("Cannot find monitor logger...");
+            return;
+        }
+        LogHelper.getMonitorLogger().info("{}", metrics);
+    }
+
+    @Override
+    public String type() {
+        return CollectorTypeEnum.LOGGING.name().toLowerCase();
+    }
+}
 ```
 
 
@@ -288,7 +395,21 @@ Handler进行单例模式的设计
 
 
 ```java
-public final class CollectorHandler {    private CollectorHandler() {    }    public static CollectorHandler getInstance() {        return CollectorHandlerHolder.INSTANCE;    }    private static class CollectorHandlerHolder {        private static final CollectorHandler INSTANCE = new CollectorHandler();    }}
+public final class CollectorHandler {
+
+
+    private CollectorHandler() {
+     
+    }
+
+    public static CollectorHandler getInstance() {
+        return CollectorHandlerHolder.INSTANCE;
+    }
+
+    private static class CollectorHandlerHolder {
+        private static final CollectorHandler INSTANCE = new CollectorHandler();
+    }
+}
 ```
 
 
@@ -297,3 +418,8 @@ public final class CollectorHandler {    private CollectorHandler() {    }    pu
 - Equator
 - EventBus
 - mdc
+
+private static class Holder {
+private static final DtpProperties INSTANCE = new DtpProperties();
+}
+
