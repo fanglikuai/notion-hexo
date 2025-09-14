@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Notion-Hexo
-subtitle: 'Notion + Elog + Hexo + GitHub Actions + Vercel 博客解决方案'
-description: 'Notion + Elog + Hexo + GitHub Actions + Vercel 博客解决方案'
+title: 方立的前进日记
+subtitle: ''
+description: ''
 keywords:
-author: 1874
+author: 方立
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://notion-hexo.vercel.app
+url: https://www.fanglikuai.xyz
 permalink: :title/
 permalink_defaults:
 pretty_urls:
