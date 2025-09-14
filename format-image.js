@@ -8,6 +8,8 @@ const { matterMarkdownAdapter } = require('@elog/cli')
  * @return {Promise<DocDetail>} 返回处理后的文档对象
  */
 const format = async (doc, imageClient) => {
+
+
   const cover = doc.properties.cover
   // 将 cover 字段中的 notion 图片下载到本地
   if (imageClient)  {
@@ -16,6 +18,7 @@ const format = async (doc, imageClient) => {
     const url = await imageClient.uploadImageFromUrl(cover, doc)
     // cover链接替换为本地图片
     doc.properties.index_img = url
+    doc.properties.banner_img = url
     }catch (error) {
 // 捕获并处理异常
 console.error("捕获到错误：", error.message);
