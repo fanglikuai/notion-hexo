@@ -4,8 +4,8 @@ tags: []
 description: ''
 permalink: ''
 title: java面试之场景题
-date: '2025-09-14 17:14:00'
-updated: '2025-09-14 17:14:00'
+date: '2025-09-14 17:39:00'
+updated: '2025-09-14 17:45:00'
 ---
 
 # CompletableFuture之控制时间
@@ -97,5 +97,5 @@ public class ConsistentHashTest {    public static final int NODE_SIZE = 10;    
 运行此测试，输出结果如下所示：
 
 
-![images2f16695d002e4ea9ca9582bc82330e9b.webp](/images/d81ce544d860b94b288f51e1613125c8.webp)
+![images2f16695d002e4ea9ca9582bc82330e9b.webp](/images/31c1443215ecd8757b2654fbe48d013b.webp)
 

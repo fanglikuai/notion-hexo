@@ -1,16 +1,11 @@
 ---
-categories: 博客阅读
-tags:
-  - 架构设计
-  - bilibili
-  - 点赞
+categories: ''
+tags: []
 description: ''
-permalink: hello
+permalink: ''
 title: bilibili-点赞
-cover: 'https://www.notion.so/images/page-cover/webb1.jpg'
-date: '2025-09-14 16:13:00'
-updated: '2025-09-14 16:56:00'
-index_img: /images/ddd64e35f160b0eaa92db513eda8af3e.jpg
+date: '2025-09-14 17:39:00'
+updated: '2025-09-14 17:45:00'
 ---
 > 原文：【点个赞吧】 - B站千亿级点赞系统服务架构设计 - 哔哩哔哩 (bilibili.com)
 
@@ -49,7 +44,7 @@ index_img: /images/ddd64e35f160b0eaa92db513eda8af3e.jpg
 ## 架构
 
 
-![images415be98d0c66f1ed67b13a1723120d50.png](/images/4dcb611d834ccbb16132b82f631e7288.png)
+![images415be98d0c66f1ed67b13a1723120d50.png](/images/e2fdc93d616dc5188cff2ab4068a3955.png)
 
 
 ### 表设计
@@ -66,7 +61,7 @@ index_img: /images/ddd64e35f160b0eaa92db513eda8af3e.jpg
 点赞总数：
 
 
-![images65aad04c9eced3505cb770d40f1c3579.png](/images/8d7404034032ddf5bbc9330f7b99f605.png)
+![images65aad04c9eced3505cb770d40f1c3579.png](/images/9ae342751f4e24d5d2aa969b60653688.png)
 
 
 key-value = count:patten:{business_id}:{message_id} - {likes},{disLikes}
@@ -79,7 +74,7 @@ key-value = count:patten:{business_id}:{message_id} - {likes},{disLikes}
 
 > mid是用户id
 
-![imagescb9265642ddfbe9d9e0446e988509700.png](/images/47d860bd87f10c2101b205b8b271538d.png)
+![imagescb9265642ddfbe9d9e0446e988509700.png](/images/a1a98d7071b05accdbc530a849134d4c.png)
 
 
 key-value = user:likes:patten:{mid}:{business_id} - member(messageID)-score(likeTimestamp)
