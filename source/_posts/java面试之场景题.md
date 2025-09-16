@@ -7,8 +7,8 @@ description: ''
 permalink: ''
 title: java面试之场景题
 date: '2025-09-14 17:39:00'
-cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/143cad91-961b-48b0-82dc-78fbb6eb5abe/d4a02792-ec3a-400f-8fb0-a22ce204bc3c/anime-Neon-Genesis-Evangelion-2299006-wallhere.com.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666LBA3QYN%2F20250915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250915T183042Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAEaCXVzLXdlc3QtMiJGMEQCIHOeh7XpkTxnoOGyKdf%2FfXgkFYK%2FdNrXl3oI31eYrXsfAiA0QrgXJRqpTBQE5J4HROSNj9UOGyieUloRoVI09KNyLCr%2FAwh6EAAaDDYzNzQyMzE4MzgwNSIMrkFAoH40cv%2Bpy9VTKtwDX%2F0ffF%2FA79zZ75pSe7hvCOH6iGXD4Ra89RjrjXC%2FEQmzcsEjAVRMNuEa4F9EUkCNnMSVJFAx9S42Yk1FMKmjEfKnaab0139Ak%2FQR%2F5BdIW822fUBTYfoDTxqs77RemT7MElJpKw%2BStRrBRDozjEJ97guZxk5hO%2F3uohiNjPVbgqhwkCIJt7mYGIizOcyFPQSAZPX%2FP8eZX40NZYr0C09pRQ8V90SKUjvWJwtbWgtwt9GP2GZbwwGGPf0lf6jaDxbb1jO8xAP3On%2BQjWGPL3gLP7mdfWgaRY0ljDyAFQ%2FRTEEd2yXqO7E7TTdaN5cFSfIUpIY228JfBKdnjRkw0MeTPyZ3jiw7A6XOLoCPFoaDHmiuLrLNyYaoH4KfPtoDd0L7U9KDly%2F8abjpB%2BaJRSXhnYEz%2By%2FklCJi3cbCsxJ8fIV5aSGWi5P8kQv0MZ7hITYWGd1%2B3qMR%2BOcX%2Fb6XARBGGpcC4b%2BFT7h%2Ftf6ggXPJ%2F9OfMLYksQkwbWbdo8BCnvKJCBQJ1cpr6OabyUx2yElNFDvhPdj%2FI1OjKZUP4cRepZkWansO5ORK5gfB83CmK9Qtbzz5MJWDmbQXnOEs4usTTtVRtE5M76Cp1%2B523kpOE7Qw4q18yMHsoA7SEIwr4qhxgY6pgFh1oROvIznyl5360xBdwiC00mzwqHMwsrFZ4s2WMrgkl5XItkyuVqxE82WVzcE1Ob21PKpZyZ%2FrADQzUtxpjyYMQWPiMjtDV%2FpVm%2FA%2BJJfev9o7uwzcO6yxU23sc%2F7lkS91esMZwuupqrtJ8dCA9Ww6AM4BP0Z9mkss4ffjCZjF4wrERrhd7H3ozzPGRnE7Os5uqyFZMBzjKQVs8tcOCfqmqxuT9U%2B&X-Amz-Signature=143fcef4954ebbd48f947d8c564c295bf3672ea0daa49cb81b7f11dd9da161c5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject'
-updated: '2025-09-15 09:57:00'
+cover: 'https://prod-files-secure.s3.us-west-2.amazonaws.com/143cad91-961b-48b0-82dc-78fbb6eb5abe/d4a02792-ec3a-400f-8fb0-a22ce204bc3c/anime-Neon-Genesis-Evangelion-2299006-wallhere.com.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UMFBIF2P%2F20250916%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250916T062457Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJGMEQCICRfd1ApFIYf20TLqkPQcgbaJ9kaUgKpcTTY4ldsfO7sAiATj%2Bgcg%2Ftyo04qyzWwnRTkFGUoTqrK4M1w19IVx3EAFiqIBAiH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIM%2BtvShJiTePrXnSJiKtwDbV9KQox%2FRYDWI%2FNwe1r9kO71vR5K8RsBySpUFSHFiL8xmEZupLST861RErpvqfQSBXwQgTKpX%2BWE4AtJzRy6p2kpbpy76wI2R0YIBBb7%2BUBiGfeFWu6PHd7qy0ANrhZYco4s3jxdp8J7LhnlMKA2QhCOmY1lOeTtg1r7CkWuAgJ1BDkxuVppHVGHRyE%2FlSL2kv5%2FSWQ9JXVoaltMKrXCPFsBbKwekvjjH3Kays%2BaRbjGluQ3VtXi0dwJI8nRrtL4rUqR1cjsIliZ2cnb3BpYS8ieZR4426qoPXBNSYCylKfg2V9NMvi6T2tAVnP5OotyOrLliH86synAduwRWhYMwT8a2%2F3cPnsqNfOv6Ih6RbpzM4TudE5zZUZXnhyK%2Fg9ywmwhkbDGNtxWPfsaaUvUm9q%2B4na4k7I0Z669vf1fih2Agwx5dyCQR3COm3Q4P%2Flf9vZ%2FHZQesmXEnLpfoMDbHdr7rr8ndqfudLwy2Rr%2FBwNVHdY6jvS0DYznj6nXjmPreFRojYG%2BeVg2HJ%2FNVt0ydjL4Ddipep0YlCDm%2Bfr8BjNAXwSdf4Ax7Q%2Bir2I%2BcCQP86mu6VFE2z%2BGts7HC8qdY2FkSLb22HAxfEe8okcYZV482BG2ncrJQ95Yx6gwifWjxgY6pgErOQ5CR6cdTTPGpcSJZcKVIQZcN%2FzHSABFp5rOUoWzZu7GtDNLXziFfqZVeuQQnB7pxWcOpg8iiO14khqQwQC1BpJ7cVxNID9OrnlRjMGgRU5SgT78OfZXCaBA3DyHZamq45oIjKabxW6DubeVCcYSj2xUh7euu3dlcWcxKQMpK9H2qBznyhfWjMTwLYir3wlh9H3mXy4u3CfsS%2F5JaT%2BJ32u%2FR5ck&X-Amz-Signature=30bb3867cefa9d31c2807632fbdcf639ac811ab7db6ef7c4b84bc6e9bb1b34c1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject'
+updated: '2025-09-16 13:54:00'
 index_img: /images/15787b0b74cc7dc5b455660dc155b279.jpg
 banner_img: /images/15787b0b74cc7dc5b455660dc155b279.jpg
 ---
@@ -60,8 +60,78 @@ banner_img: /images/15787b0b74cc7dc5b455660dc155b279.jpg
 
 
 ```java
-package com.fang.other;import com.google.common.collect.Lists;import java.util.ArrayList;import java.util.List;import java.util.concurrent.*;/** * @author fang
- * @version 1.0 * @date 2025/3/26 14:41:15 */public class Test {    public static void main(String[] args) {        ArrayList<String> list = new ArrayList<>();        for (int i = 0; i < 100; i++) {            list.add(String.valueOf(i));        }//        Lists.partition(list, 3);//        计算方法耗时        long start = System.currentTimeMillis();        batchSend(list);        long end = System.currentTimeMillis();        System.out.println("方法耗时：" + (end - start));    }//    线程池    private static final ThreadPoolExecutor executor = new ThreadPoolExecutor(10, 10, 10, TimeUnit.SECONDS, new ArrayBlockingQueue<>(10));    /**     * 一次批量发送消息最大数量为100条     * 批量发送接口一次耗时不超过50ms。     *     * @param messages     * @return     */    public static boolean batchSend(List<String> messages) {        List<List<String>> partition = Lists.partition(messages, 20);        List<CompletableFuture> futures = new ArrayList<>();        for (List<String> one : partition) {            CompletableFuture<Boolean> future = CompletableFuture.supplyAsync(() -> {                for (String res : one) {                    if (!send(res)) return false;                }                return true;            },executor);            futures.add(future);        }        CompletableFuture<Void> allOf = CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]));        try {            allOf.get();        } catch (InterruptedException e) {            throw new RuntimeException(e);        } catch (ExecutionException e) {            throw new RuntimeException(e);        }        return true;    }    public static boolean send(String message) {        try {            Thread.sleep(2);            return true;        } catch (InterruptedException e) {            throw new RuntimeException(e);        }    }}
+package com.fang.other;
+
+import com.google.common.collect.Lists;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
+
+/**
+ * @author fang
+ * @version 1.0
+ * @date 2025/3/26 14:41:15
+ */
+public class Test {
+
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        for (int i = 0; i < 100; i++) {
+            list.add(String.valueOf(i));
+        }
+
+        // Lists.partition(list, 3);
+        // 计算方法耗时
+        long start = System.currentTimeMillis();
+        batchSend(list);
+        long end = System.currentTimeMillis();
+        System.out.println("方法耗时：" + (end - start));
+    }
+
+    // 线程池
+    private static final ThreadPoolExecutor executor = new ThreadPoolExecutor(
+        10, 10, 10, TimeUnit.SECONDS, new ArrayBlockingQueue<>(10)
+    );
+
+    /**
+     * 一次批量发送消息最大数量为100条
+     * 批量发送接口一次耗时不超过50ms。
+     *
+     * @param messages
+     * @return
+     */
+    public static boolean batchSend(List<String> messages) {
+        List<List<String>> partition = Lists.partition(messages, 20);
+        List<CompletableFuture> futures = new ArrayList<>();
+        for (List<String> one : partition) {
+            CompletableFuture<Boolean> future = CompletableFuture.supplyAsync(() -> {
+                for (String res : one) {
+                    if (!send(res)) return false;
+                }
+                return true;
+            }, executor);
+            futures.add(future);
+        }
+        CompletableFuture<Void> allOf = CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]));
+        try {
+            allOf.get();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        } catch (ExecutionException e) {
+            throw new RuntimeException(e);
+        }
+        return true;
+    }
+
+    public static boolean send(String message) {
+        try {
+            Thread.sleep(2);
+            return true;
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
 ```
 
 
@@ -72,8 +142,83 @@ package com.fang.other;import com.google.common.collect.Lists;import java.util.A
 
 
 ```java
-public class ConsistentHash {    private final TreeMap<Integer, Node> hashRing = new TreeMap<>();    public List<Node> nodeList = new ArrayList<>();    /**     * 增加节点     * 每增加一个节点，就会在闭环上增加给定虚拟节点     * 例如虚拟节点数是2，则每调用此方法一次，增加两个虚拟节点，这两个节点指向同一Node
-     * @param ip     */    public void addNode(String ip) {        Objects.requireNonNull(ip);        Node node = new Node(ip);        nodeList.add(node);        for (Integer virtualNodeHash : node.getVirtualNodeHashes()) {            hashRing.put(virtualNodeHash, node);            System.out.println("虚拟节点[" + node + "] hash:" + virtualNodeHash + "，被添加");        }    }    /**     * 移除节点     * @param node     */    public void removeNode(Node node){        nodeList.remove(node);    }    /**     * 获取缓存数据     * 先找到对应的虚拟节点，然后映射到物理节点     * @param key     * @return     */    public Object get(Object key) {        Node node = findMatchNode(key);        System.out.println("获取到节点:" + node.getIp());        return node.getCacheItem(key);    }    /**     * 添加缓存     * 先找到hash环上的节点，然后在对应的节点上添加数据缓存     * @param key     * @param value     */    public void put(Object key, Object value) {        Node node = findMatchNode(key);        node.addCacheItem(key, value);    }    /**     * 删除缓存数据     */    public void evict(Object key) {        findMatchNode(key).removeCacheItem(key);    }    /**     *  获得一个最近的顺时针节点     * @param key 为给定键取Hash，取得顺时针方向上最近的一个虚拟节点对应的实际节点     *      * @return 节点对象     * @return     */    private Node findMatchNode(Object key) {        Map.Entry<Integer, Node> entry = hashRing.ceilingEntry(HashUtils.hashcode(key));        if (entry == null) {            entry = hashRing.firstEntry();        }        return entry.getValue();    }}
+public class ConsistentHash {
+
+    private final TreeMap<Integer, Node> hashRing = new TreeMap<>();
+    public List<Node> nodeList = new ArrayList<>();
+
+    /**
+     * 增加节点
+     * 每增加一个节点，就会在闭环上增加给定虚拟节点
+     * 例如虚拟节点数是2，则每调用此方法一次，增加两个虚拟节点，这两个节点指向同一Node
+     *
+     * @param ip
+     */
+    public void addNode(String ip) {
+        Objects.requireNonNull(ip);
+        Node node = new Node(ip);
+        nodeList.add(node);
+        for (Integer virtualNodeHash : node.getVirtualNodeHashes()) {
+            hashRing.put(virtualNodeHash, node);
+            System.out.println("虚拟节点[" + node + "] hash:" + virtualNodeHash + "，被添加");
+        }
+    }
+
+    /**
+     * 移除节点
+     *
+     * @param node
+     */
+    public void removeNode(Node node) {
+        nodeList.remove(node);
+    }
+
+    /**
+     * 获取缓存数据
+     * 先找到对应的虚拟节点，然后映射到物理节点
+     *
+     * @param key
+     * @return
+     */
+    public Object get(Object key) {
+        Node node = findMatchNode(key);
+        System.out.println("获取到节点:" + node.getIp());
+        return node.getCacheItem(key);
+    }
+
+    /**
+     * 添加缓存
+     * 先找到hash环上的节点，然后在对应的节点上添加数据缓存
+     *
+     * @param key
+     * @param value
+     */
+    public void put(Object key, Object value) {
+        Node node = findMatchNode(key);
+        node.addCacheItem(key, value);
+    }
+
+    /**
+     * 删除缓存数据
+     */
+    public void evict(Object key) {
+        findMatchNode(key).removeCacheItem(key);
+    }
+
+    /**
+     * 获得一个最近的顺时针节点
+     * @param key 为给定键取Hash，取得顺时针方向上最近的一个虚拟节点对应的实际节点
+     *
+     * @return 节点对象
+     */
+    private Node findMatchNode(Object key) {
+        Map.Entry<Integer, Node> entry = hashRing.ceilingEntry(HashUtils.hashcode(key));
+        if (entry == null) {
+            entry = hashRing.firstEntry();
+        }
+        return entry.getValue();
+    }
+}
 ```
 
 
@@ -84,10 +229,33 @@ public class ConsistentHash {    private final TreeMap<Integer, Node> hashRing =
 
 
 ```java
-public class HashUtils {    /**     * FNV1_32_HASH
-     *     * @param obj     *         object
+public class HashUtils {
+
+    /**
+     * FNV1_32_HASH
+     *
+     * @param obj object
      * @return hashcode
-     */    public static int hashcode(Object obj) {        final int p = 16777619;        int hash = (int) 2166136261L;        String str = obj.toString();        for (int i = 0; i < str.length(); i++)        hash = (hash ^ str.charAt(i)) * p;        hash += hash << 13;        hash ^= hash >> 7;        hash += hash << 3;        hash ^= hash >> 17;        hash += hash << 5;        if (hash < 0)            hash = Math.abs(hash);        //System.out.println("hash computer:" + hash);        return hash;    }}
+     */
+    public static int hashcode(Object obj) {
+        final int p = 16777619;
+        int hash = (int) 2166136261L;
+        String str = obj.toString();
+        for (int i = 0; i < str.length(); i++) {
+            hash = (hash ^ str.charAt(i)) * p;
+        }
+        hash += hash << 13;
+        hash ^= hash >> 7;
+        hash += hash << 3;
+        hash ^= hash >> 17;
+        hash += hash << 5;
+        if (hash < 0) {
+            hash = Math.abs(hash);
+        }
+        // System.out.println("hash computer:" + hash);
+        return hash;
+    }
+}
 ```
 
 
@@ -95,7 +263,58 @@ public class HashUtils {    /**     * FNV1_32_HASH
 
 
 ```java
-public class ConsistentHashTest {    public static final int NODE_SIZE = 10;    public static final int STRING_COUNT = 100 * 100;    private static ConsistentHash consistentHash = new ConsistentHash();    private static List<String> sList = new ArrayList<>();    public static void main(String[] args) {        // 增加节点        for (int i = 0; i < NODE_SIZE; i++) {            String ip = new StringBuilder("10.2.1.").append(i)            .toString();            consistentHash.addNode(ip);        }        // 生成需要缓存的数据;        for (int i = 0; i < STRING_COUNT; i++) {            sList.add(RandomStringUtils.randomAlphanumeric(10));        }        // 将数据放入到缓存中。        for (String s : sList) {            consistentHash.put(s, s);        }        for(int i = 0 ; i < 10 ; i ++) {            int index = RandomUtils.nextInt(0, STRING_COUNT);            String key = sList.get(index);            String cache = (String) consistentHash.get(key);            System.out.println("Random:"+index+",key:" + key + ",consistentHash get value:" + cache +",value is:" + key.equals(cache));        }        // 输出节点及数据分布情况        for (Node node : consistentHash.nodeList){            System.out.println(node);        }        // 新增一个数据节点        consistentHash.addNode("10.2.1.110");        for(int i = 0 ; i < 10 ; i ++) {            int index = RandomUtils.nextInt(0, STRING_COUNT);            String key = sList.get(index);            String cache = (String) consistentHash.get(key);            System.out.println("Random:"+index+",key:" + key + ",consistentHash get value:" + cache +",value is:" + key.equals(cache));        }        // 输出节点及数据分布情况        for (Node node : consistentHash.nodeList){            System.out.println(node);        }    }}
+public class ConsistentHashTest {
+
+    public static final int NODE_SIZE = 10;
+    public static final int STRING_COUNT = 100 * 100;
+    private static ConsistentHash consistentHash = new ConsistentHash();
+    private static List<String> sList = new ArrayList<>();
+
+    public static void main(String[] args) {
+        // 增加节点
+        for (int i = 0; i < NODE_SIZE; i++) {
+            String ip = new StringBuilder("10.2.1.").append(i).toString();
+            consistentHash.addNode(ip);
+        }
+
+        // 生成需要缓存的数据
+        for (int i = 0; i < STRING_COUNT; i++) {
+            sList.add(RandomStringUtils.randomAlphanumeric(10));
+        }
+
+        // 将数据放入到缓存中
+        for (String s : sList) {
+            consistentHash.put(s, s);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            int index = RandomUtils.nextInt(0, STRING_COUNT);
+            String key = sList.get(index);
+            String cache = (String) consistentHash.get(key);
+            System.out.println("Random:" + index + ",key:" + key + ",consistentHash get value:" + cache + ",value is:" + key.equals(cache));
+        }
+
+        // 输出节点及数据分布情况
+        for (Node node : consistentHash.nodeList) {
+            System.out.println(node);
+        }
+
+        // 新增一个数据节点
+        consistentHash.addNode("10.2.1.110");
+
+        for (int i = 0; i < 10; i++) {
+            int index = RandomUtils.nextInt(0, STRING_COUNT);
+            String key = sList.get(index);
+            String cache = (String) consistentHash.get(key);
+            System.out.println("Random:" + index + ",key:" + key + ",consistentHash get value:" + cache + ",value is:" + key.equals(cache));
+        }
+
+        // 输出节点及数据分布情况
+        for (Node node : consistentHash.nodeList) {
+            System.out.println(node);
+        }
+    }
+}
 ```
 
 
@@ -103,4 +322,59 @@ public class ConsistentHashTest {    public static final int NODE_SIZE = 10;    
 
 
 ![images2f16695d002e4ea9ca9582bc82330e9b.webp](/images/31c1443215ecd8757b2654fbe48d013b.webp)
+
+
+```java
+public class ConsistentHashTest {
+    public static final int NODE_SIZE = 10;
+    public static final int STRING_COUNT = 100 * 100;
+    private static ConsistentHash consistentHash = new ConsistentHash();
+    private static List<String> sList = new ArrayList<>();
+
+    public static void main(String[] args) {
+        // 增加节点
+        for (int i = 0; i < NODE_SIZE; i++) {
+            String ip = new StringBuilder("10.2.1.").append(i).toString();
+            consistentHash.addNode(ip);
+        }
+
+        // 生成需要缓存的数据
+        for (int i = 0; i < STRING_COUNT; i++) {
+            sList.add(RandomStringUtils.randomAlphanumeric(10));
+        }
+
+        // 将数据放入到缓存中
+        for (String s : sList) {
+            consistentHash.put(s, s);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            int index = RandomUtils.nextInt(0, STRING_COUNT);
+            String key = sList.get(index);
+            String cache = (String) consistentHash.get(key);
+            System.out.println("Random:" + index + ",key:" + key + ",consistentHash get value:" + cache + ",value is:" + key.equals(cache));
+        }
+
+        // 输出节点及数据分布情况
+        for (Node node : consistentHash.nodeList) {
+            System.out.println(node);
+        }
+
+        // 新增一个数据节点
+        consistentHash.addNode("10.2.1.110");
+
+        for (int i = 0; i < 10; i++) {
+            int index = RandomUtils.nextInt(0, STRING_COUNT);
+            String key = sList.get(index);
+            String cache = (String) consistentHash.get(key);
+            System.out.println("Random:" + index + ",key:" + key + ",consistentHash get value:" + cache + ",value is:" + key.equals(cache));
+        }
+
+        // 输出节点及数据分布情况
+        for (Node node : consistentHash.nodeList) {
+            System.out.println(node);
+        }
+    }
+}
+```
 
