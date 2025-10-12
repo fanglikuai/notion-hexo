@@ -40,7 +40,7 @@ updated: '2025-09-21 11:01:00'
 Java对象的内存布局如下：
 
 
-![image](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aa5df88273a1413090e56cc064ef0682~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![image](/images/50cb9fd997c5f2469004c527a901c6de.awebp)
 
 
 可以看到在 Java 虚拟机中，对象分为三块区域，其中的对象头又包含 **Mark Word（标记字段）** 和 **Class Pointer（类型指针）** 两部分（其中的数组长度是针对数组来说的）。
@@ -64,7 +64,7 @@ Java对象的内存布局如下：
 无锁其实就是不使用 synchronized 关键字，无锁的锁标志位为 01。
 
 
-![image](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9ce35fa811dd4b80bc03604c314dd1d6~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![image](/images/09e55b0aa224886687b220d3fee9c8d9.awebp)
 
 > **如何在程序中查看对象的锁状态呢？**
 
@@ -188,7 +188,7 @@ public class MonitorTest {
 标记字段中轻量级锁状态如下：
 
 
-![image](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ee65478a1b9c4e258aff94d2a307d339~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![image](/images/c7dc695ce6f03da1f5a68988fdef8abf.awebp)
 
 > **为什么要引入轻量级锁？**
 
